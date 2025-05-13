@@ -51,17 +51,23 @@
   
     <h3>Design Rationale</h3>
     <p>
-      Our goal was to visualize how rats’ blood pressure changes over time under different salt intake conditions. We chose a line chart because it clearly shows time-series patterns. To keep the visualization interactive but focused, we added group and rat selectors. The trendline helps identify long-term increases or decreases. Tooltips and a vertical crosshair provide details on demand. We considered showing all rats at once, but it became visually cluttered, so we focused on one rat at a time with flexible filters.
+      Our goal was to visualize how rats’ blood pressure changes over time under different 
+      salt intake conditions. We chose a line chart because it clearly shows time-series patterns. 
+      To keep the visualization interactive but focused, we added group and rat selectors. 
+      The trendline helps identify long-term increases or decreases. Tooltips and a vertical crosshair provide details on demand. We considered showing all rats at once, but it became visually cluttered, so we focused on one rat at a time with flexible filters.
     </p>
   
     <h3>Development Overview</h3>
     <p>
-      We used D3.js to build the chart, loading a pre-processed JSON file of blood pressure readings. We implemented dropdown filters, a trendline toggle, tooltips for both data points and trendlines, a crosshair for time alignment, and axis labels for clarity.
+      We used D3.js to build the chart, loading a pre-processed JSON file of blood pressure readings. 
+      We implemented dropdown filters, a trendline toggle, tooltips for both data points and trendlines, a crosshair for time alignment, 
+      and axis labels for clarity.
     </p>
     <ul>
-      <li><strong>Time Spent:</strong> ~20–25 person-hours total</li>
+      <li><strong>Time Spent:</strong> 15 hours total</li>
       <li><strong>Most Time-Consuming Part:</strong> Implementing smooth interaction for trendlines and tooltips without cluttering the UI</li>
-      <li><strong>Team Members:</strong> Jack (data + D3 logic), Alice (interactions + tooltips), Bob (deployment + write-up)</li>
+      <li><strong>Team Members:</strong> ???? (HTML, D3, tooltips, interactions),  
+        ????? (deployment, write-up, EDA, overall project idea)</li>
     </ul>
   </section>
   
